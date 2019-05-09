@@ -1,0 +1,21 @@
+
+The main aim of the program is to design and implement a memory management module for our Operating System oss.
+The page tables are 32K of size and the total frame table is 256K of size.
+
+By Syed Tariq Rashid.
+
+
+Command Line arguments :
+
+-h : HELP.       
+-l : The log file Name provided by the user. If nothing is provided by the user, "default" will be the filename.
+-v : It helps to specify the max no.of process allowed to run at same time.
+
+In order to run this program..
+   
+1) Run make
+2) Run executable file with necessary arguments. 
+3) How to run:  ./oss -l logging
+4) If you want to remove output files execute this script: make clean
+
+The output result is stored in the logfile.
